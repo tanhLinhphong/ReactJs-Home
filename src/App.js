@@ -5,11 +5,13 @@ import Container from 'react-bootstrap/Container';
 function App() {
   return (
  <div className='app-container'>
+  <Heder/>
   <Container>
 
-    <Heder/>
    <TableUser/>
+
   </Container>
+
  </div>
   );
 }
